@@ -59,7 +59,7 @@ class Main extends PluginBase implements Listener {
 		if(!isset($this->messages->getAll()["message.register"])){
 			$this->messages->set("message.register", "&eYou have to register. Use /register <password>.");
 		}
-		if(!isset($this->messages->getAll()["message.registerSuccessfull")){
+		if(!isset($this->messages->getAll()["message.registerSuccessfull"])){
 			$this->messages->set("message.registerSuccessfull", "&aYou have successfully registered your account!");
 		}
 		if(!isset($this->messages->getAll()["message.registerFail"])){
